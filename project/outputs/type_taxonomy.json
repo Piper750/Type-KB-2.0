@@ -1,0 +1,29 @@
+{
+  "num_entries": 3,
+  "coarse_type_counts": {
+    "algebra": 1,
+    "geometry": 1,
+    "arithmetic": 1
+  },
+  "fine_type_counts": {
+    "linear_equation": 1,
+    "rectangle_area": 1,
+    "percentage": 1
+  },
+  "num_train_records": 3,
+  "num_eval_records": 2,
+  "dataset_root": "/mnt/data/te_kb_patch/math_datasets",
+  "type_abstractor": {
+    "provider": "rule",
+    "artifact_dir": "./outputs/type_abstractor",
+    "top_k_candidates": 3,
+    "coarse_threshold": 0.55,
+    "fine_threshold": 0.45,
+    "fallback_to_rule": true,
+    "train": {
+      "encoder_name": "sentence-transformers/all-mpnet-base-v2",
+      "normalize_embeddings": true,
+      "min_samples_per_fine_type": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "zero_shot": {
+    "num_samples": 2,
+    "num_correct": 1,
+    "accuracy": 0.5,
+    "avg_latency_sec": 0.000701
+  },
+  "type_only": {
+    "num_samples": 2,
+    "num_correct": 1,
+    "accuracy": 0.5,
+    "avg_latency_sec": 0.005357
+  },
+  "experience_only": {
+    "num_samples": 2,
+    "num_correct": 1,
+    "accuracy": 0.5,
+    "avg_latency_sec": 0.004588
+  },
+  "full": {
+    "num_samples": 2,
+    "num_correct": 1,
+    "accuracy": 0.5,
+    "avg_latency_sec": 0.005274
+  }
+}
