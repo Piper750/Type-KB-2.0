@@ -1,4 +1,4 @@
-# TE-KB-RAG 数学推理框架
+# RAG 数学推理
 
 这是一个围绕“题型—经验知识库（Type-Experience Knowledge Base）”构建的**离线建库 + 在线检索增强推理**流水线。
 
@@ -40,7 +40,7 @@ math_type_experience_project/
 └── requirements.txt
 ```
 
-## 代码实现了什么
+## 代码实现
 
 ### 1. 离线知识库构建
 
